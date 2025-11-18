@@ -9,7 +9,7 @@ from surfline_api_class import WindCSV  # <-- add this after you define it
 date_str = datetime.now().strftime("%y%m%d")
 
 # ---------------- SIMPLE USER CONFIG (edit these) ---------------- #
-COMMAND        = "tides"                       # "wave", "tides", or "wind"
+COMMAND        = "wave"                       # "wave", "tides", or "wind"
 SPOT_ID        = "5842041f4e65fad6a7708827"   # <-- put your spot ID here
 DAYS           = 6                            # >6 usually needs login
 OUT_PATH       = f"forecasts/forecast_{COMMAND}_{date_str}.csv"
