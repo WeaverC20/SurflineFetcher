@@ -64,7 +64,7 @@ Each `YYYYMMDD` is the **forecast issuance date**.
 
 Clone the repo:
 
-git clone https://github.com/<yourname>/surflie.git
+git clone https://github.com/WeaverC20/surflie.git
 cd surflie
 
 yaml
@@ -129,7 +129,7 @@ Copy code
 
 ---
 
-## 📆 Pulling 2 Years of Forecasts (today + 15 days ahead)
+## Pulling 2 Years of Forecasts (today + 15 days ahead)
 
 If today is `2025-11-18`, run:
 
@@ -148,7 +148,7 @@ This generates ~730 issuance dates × 8 endpoints × 16-day forecast horizons.
 
 ---
 
-## 🛑 Rate Limiting (HTTP 429)
+## Rate Limiting (HTTP 429)
 
 Surfline will rate-limit heavy scraping.
 
@@ -170,7 +170,7 @@ Increase to 20–30 seconds for multi-year runs.
 
 ---
 
-## 🛠 Notes
+## Notes
 
 - Surfline APIs are **reverse-engineered**, not official.  
 - Endpoint schemas can change without notice.  
