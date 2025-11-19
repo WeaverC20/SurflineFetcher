@@ -2,9 +2,9 @@ import os
 import sys
 import time
 from datetime import datetime
-from surfline_api_class import SurflineAPI, WaveCSV, TidesCSV, DEFAULT_AUTHZ_B64
+from surfline_client import SurflineAPI, WaveCSV, TidesCSV, DEFAULT_AUTHZ_B64
 # If WindCSV is in the same module, import it too:
-from surfline_api_class import WindCSV  # <-- add this after you define it
+from surfline_client import WindCSV  # <-- add this after you define it
 
 date_str = datetime.now().strftime("%y%m%d")
 
