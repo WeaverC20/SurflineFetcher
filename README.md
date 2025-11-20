@@ -1,4 +1,4 @@
-# 🏄‍♂️ Surflie — Surfline Historic Forecast Harvester
+# 🏄‍♂️ SurflineFetcher — Surfline Historic Forecast Harvester
 
 Surflie is a Python utility for downloading **historic Surfline forecasts** for any surf spot, including **all major v2 API endpoints**, and saving them as organized CSV files.
 
