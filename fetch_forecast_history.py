@@ -29,8 +29,8 @@ How to run:
 python fetch_forecast_history.py \
   --spot-id 5842041f4e65fad6a7708827 \
   --subregion-id 58581a836630e24c44878fd6 \
-  --start-date 2023-12-08 \
-  --end-date 2025-11-18 \
+  --start-date 2024-11-04 \
+  --end-date 2025-11-19 \
   --days-ahead 16 \
   --interval-hours 1
 

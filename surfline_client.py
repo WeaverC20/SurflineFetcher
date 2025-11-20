@@ -1,7 +1,6 @@
 """
 Surfline v2 API (unofficial) — minimal OOP client + CSV helpers.
 
-- Anonymous use typically returns ~6 days of forecast.
 - Authenticated use (login) can unlock longer ranges.
 - Endpoints/shape can change; Surfline does not offer a public API.
 
