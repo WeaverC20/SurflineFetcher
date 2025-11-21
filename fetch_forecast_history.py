@@ -112,8 +112,8 @@ def get_default_dates() -> tuple[datetime, datetime]:
     Default: roughly a week of start dates from about a month ago.
     """
     today = datetime.utcnow().date()
-    end = today - timedelta(days=30)
-    start = end - timedelta(days=6)
+    end = today
+    start = today
     return (
         datetime.combine(start, datetime.min.time()),
         datetime.combine(end, datetime.min.time()),
