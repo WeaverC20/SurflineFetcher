@@ -1,6 +1,1 @@
-requests
-numpy
-pandas
-matplotlib
-numpy
-pandas
+wheel==0.45.1

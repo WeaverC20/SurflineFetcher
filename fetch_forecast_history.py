@@ -29,8 +29,8 @@ How to run:
 python fetch_forecast_history.py \
   --spot-id 5842041f4e65fad6a7708827 \
   --subregion-id 58581a836630e24c44878fd6 \
-  --start-date 2024-11-04 \
-  --end-date 2025-11-19 \
+  --start-date 2025-11-20 \
+  --end-date 2025-11-20 \
   --days-ahead 16 \
   --interval-hours 1
 
@@ -128,7 +128,7 @@ def harvest_forecasts_for_range(
     end_date: datetime,
     days_ahead: int,
     interval_hours: int = 1,
-    out_root: str = "forecasts",
+    out_root: str = "real_forecasts",
 ) -> None:
     api = SurflineAPI()
     ensure_logged_in_or_token(api)
@@ -339,8 +339,8 @@ def parse_args():
     )
     parser.add_argument(
         "--out-root",
-        default="forecasts",
-        help='Root output folder (default: "forecasts").',
+        default="real_forecasts",
+        help='Root output folder (default: "real_forecasts").',
     )
     parser.add_argument(
         "--env-file",

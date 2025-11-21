@@ -9,7 +9,7 @@ venv/
 .env
 
 # Ignore data files
-*.csv
+/forecasts
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -23,3 +23,5 @@ venv/
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+.github/
