@@ -9,7 +9,7 @@ venv/
 .env
 
 # Ignore data files
-/forecasts
+*.csv
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/

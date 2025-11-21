@@ -128,6 +128,7 @@ def harvest_forecasts_for_range(
     end_date: datetime,
     days_ahead: int,
     interval_hours: int = 1,
+    # out_root: str = "forecasts",
     out_root: str = "real_forecasts",
 ) -> None:
     api = SurflineAPI()
@@ -339,8 +340,9 @@ def parse_args():
     )
     parser.add_argument(
         "--out-root",
+        # default="forecasts",
         default="real_forecasts",
-        help='Root output folder (default: "real_forecasts").',
+        help='Root output folder (default: "forecasts").',
     )
     parser.add_argument(
         "--env-file",
